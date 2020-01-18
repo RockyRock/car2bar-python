@@ -1,4 +1,4 @@
-# Script to compute barycentric coordinates from cartesian coordinates
+# Function to compute barycentric coordinates from cartesian coordinates in a hypercube
 # R. Guicherd - December 2019
 
 import numpy as np
