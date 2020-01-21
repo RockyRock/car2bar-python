@@ -1,6 +1,6 @@
 # Cartesian to barycentric - Python
 
-This python function converts cartesian coordinates to barycentric coordinates for any point belonging to an unit hypercube in dimension <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/svg.latex?n" title="n" /></a>. The hypercube <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{H}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\mathcal{H}" title="\mathcal{H}" /></a> is defined as follows,
+This python function converts cartesian coordinates to barycentric coordinates for any point belonging to a unit hypercube in dimension <a href="https://www.codecogs.com/eqnedit.php?latex=n" target="_blank"><img src="https://latex.codecogs.com/svg.latex?n" title="n" /></a>. The hypercube <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{H}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\mathcal{H}" title="\mathcal{H}" /></a> is defined as follows,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\mathcal{H}&space;=&space;\left\{x&space;\in&space;\left\[&space;0,1&space;\right\]^{n}&space;\right\}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\mathcal{H}&space;=&space;\left\{x&space;\in&space;\left\[&space;0,1&space;\right\]^{n}&space;\right\}" title="\mathcal{H} = \left\{x \in \left\[ 0,1 \right\]^{n} \right\}" /></a>.
 
@@ -17,7 +17,7 @@ The function `car2bar()` takes the cartesian coordinates of any point within the
  [0.]]
 ```
 
-The vertices coordinated are obtained based on the binary decomposition of their respective indexes,
+The vertices coordinates are obtained based on the binary decomposition of their respective indexes,
 
 * <a href="https://www.codecogs.com/eqnedit.php?latex=Index&space;\:&space;0\Leftrightarrow&space;00" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Index&space;\:&space;0\Leftrightarrow&space;00" title="Index \: 0\Leftrightarrow 00" /></a>,
 * <a href="https://www.codecogs.com/eqnedit.php?latex=Index&space;\:&space;1\Leftrightarrow&space;01" target="_blank"><img src="https://latex.codecogs.com/svg.latex?Index&space;\:&space;1\Leftrightarrow&space;01" title="Index \: 1\Leftrightarrow 01" /></a>,
